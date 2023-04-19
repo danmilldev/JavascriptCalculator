@@ -25,6 +25,7 @@ describe('testing the outcomes of the calculations', () => {
 });
 
 describe('testing for error outputs from the functions', () => {
+    
     test('it should give an TypeError for wrong input', () => {
         expect(() => {
             calc.sum('5',5);
